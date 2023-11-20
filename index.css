@@ -1,0 +1,122 @@
+
+h1{
+  color:rgb(244, 171, 183);
+  text-align: center;
+  font-weight: bold;
+}
+ .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(90vh - 7rem);
+} 
+
+.container {
+  display: flex;
+  flex-direction: row; /* change direction to row */
+  align-items: center;
+  background-color: #f5f5f5;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.video-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -2rem; /* add margin to separate from slogan */
+  border-color: #d68616;
+  
+}
+
+/* Set the video element to be centered */
+video#webcam {
+  display: block;
+  margin: 0 auto;
+
+  /* Increase the size of the video */
+  width: 110%;
+  height:450px;
+  margin-left: -4rem; 
+  /* Add a border to the video */
+  border: 2px solid #b64e1a;
+  border-radius: 5px;
+}
+
+.slogan {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  
+  padding: 1rem;
+  
+  margin-right: 8rem; /* add margin to separate from video */
+  margin-left: -25rem; /* add negative margin to move slogan to the left */
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* background-image:url('black.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%; */
+  background-color:rgb(20, 19, 19);
+}
+
+
+.logo {
+  position: absolute;
+  top: 3rem;
+  right: 4rem;
+  height: 8rem;
+  
+  
+}
+
+
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.buttons button {
+  margin: 10 10px;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: #d68616;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: pink;
+  color:white;
+  font-size: 24px;
+}
+
+
+video#webcam {
+  display: block;
+  margin: 0 auto;
+
+
+  width: 110%;
+  height:450px;
+
+ 
+   border: 10px solid #d56910;
+  border-radius: 30px;
+}
